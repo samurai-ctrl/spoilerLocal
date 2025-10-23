@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Política Comunitaria | Spoiler</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/politica.css" />
+</head>
+<body>
+<header th:insert="~{fragments/header::header}"></header>
+<main>
+    <h1>Política Comunitaria de Spoiler</h1>
+
+    <p>Bienvenido a <strong>Spoiler</strong>, una comunidad de cinéfilos donde compartimos opiniones, descubrimos películas y debatimos con respeto. Para mantener un entorno sano y constructivo, hemos establecido esta Política Comunitaria. El uso de nuestra plataforma implica la aceptación de estas normas.</p>
+
+    <h2>1. Respeto entre usuarios</h2>
+    <ul>
+        <li>No se tolerarán ataques personales, insultos, amenazas o acoso.</li>
+        <li>Las críticas deben centrarse en el contenido, no en las personas.</li>
+        <li>Debates acalorados son bienvenidos, siempre que se mantenga el respeto mutuo.</li>
+    </ul>
+
+    <h2>2. Contenido permitido</h2>
+    <ul>
+        <li>Están permitidas reseñas, valoraciones, listas y comentarios relacionados con cine y series.</li>
+        <li>Prohibido compartir contenido ilegal, violento, pornográfico, discriminatorio o que incite al odio.</li>
+        <li>No se permite el spam ni la autopromoción constante sin aportar valor a la comunidad.</li>
+    </ul>
+
+    <h2>3. Spoilers</h2>
+    <ul>
+        <li>Evita revelar partes clave de una película o serie sin previo aviso.</li>
+        <li>Utiliza el sistema de marcado de spoilers cuando corresponda para no arruinar la experiencia de otros usuarios.</li>
+    </ul>
+
+    <h2>4. Reglas sobre puntuaciones</h2>
+    <ul>
+        <li>No uses puntuaciones de forma abusiva (ej. para trolear o sabotear una película).</li>
+        <li>Los votos deben reflejar tu opinión sincera como espectador.</li>
+    </ul>
+
+    <h2>5. Moderación</h2>
+    <ul>
+        <li>Spoiler se reserva el derecho de editar, ocultar o eliminar contenido que infrinja estas normas.</li>
+        <li>Podemos suspender o eliminar cuentas que reincidan en comportamientos negativos.</li>
+    </ul>
+
+    <h2>6. Reportes</h2>
+    <p>Si encuentras un contenido ofensivo, abusivo o contrario a las normas, puedes reportarlo a través de las opciones disponibles o escribiendo a <a href="mailto:moderacion@spoiler.com">moderacion@spoiler.com</a>.</p>
+
+    <h2>7. Colaboración de la comunidad</h2>
+    <p>La comunidad es parte fundamental del éxito de Spoiler. Te animamos a participar activamente, proponer mejoras y ayudar a que este espacio sea cada vez mejor.</p>
+
+    <p><strong>Última actualización:</strong> 9 de octubre de 2025</p>
+</main>
+<nav class="fixed-menu">
+    <ul>
+        <li><a th:href="@{/politica}">Política de privacidad</a></li>
+        <li><a th:href="@{/cookies}">Cookies</a></li>
+    </ul>
+</nav>
+<footer th:insert="~{fragments/footer::footer}"></footer>
+</body>
+</html>

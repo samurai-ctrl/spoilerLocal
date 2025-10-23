@@ -1,0 +1,126 @@
+/* ========================
+   ESTILO GLOBAL
+======================== */
+body {
+    background-color: #191919;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0 ; /* Espacio lateral */
+    line-height: 1.6;
+}
+
+/* ========================
+   ENCABEZADO
+======================== */
+header {
+    background-color: #191919;
+    color: white;
+}
+
+header .logo img {
+    height: 70px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 70px;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #da0000;
+    text-decoration: none;
+}
+
+/* ========================
+   CONTENIDO PRINCIPAL
+======================== */
+main {
+    max-width: 900px;
+    margin: 60px auto; /* Centrado y separado de arriba */
+    padding: 40px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+main h1 {
+    color: white;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+main h2 {
+    color: #ff5555;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+main p, main li {
+    color: #e0e0e0;
+    font-size: 1rem;
+}
+
+main ul {
+    padding-left: 20px;
+}
+
+main a {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+/* ========================
+   ENLACES DESTACADOS
+======================== */
+.text-muted {
+    color: white !important;
+    font-style: italic;
+}
+/* ========================
+   MENÚ FIJO INFERIOR DERECHA
+======================== */
+.fixed-menu {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #2a2a2a;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+.fixed-menu ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ gap: 12px;
+}
+
+.fixed-menu a {
+ display: inline-block;
+ padding: 6px 12px;
+ background-color: #dc3545;
+ color: #ffffff;
+ text-decoration: none;
+ font-size: 0.9rem;
+ border-radius: 4px;
+ transition: background-color 0.3s ease;
+}
+
+.fixed-menu a:hover {
+ background-color: #b02a37;
+}
+nav.fixed-menu a {
+ pointer-events: auto;
+}

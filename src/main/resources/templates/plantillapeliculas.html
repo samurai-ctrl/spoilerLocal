@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>28 Días Después</title>
+  <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link th:href="@{/css/entradapeli.css}" rel="stylesheet">
+</head>
+
+<body>
+<header th:insert="~{fragments/header::header}"></header>
+
+<section class="hero">
+  <div class="overlay">
+    <h1>One Battle After Another</h1>
+    <p>(1979) · Dirigida por Mu Ban</p>
+    <a href="#" class="btn">Añadir a mi lista</a>
+    <a href="#" class="btn">Marcar como vista</a>
+  </div>
+</section>
+<section class="content">
+  <div class="poster">
+    <img src="https://a.ltrbxd.com/resized/film-poster/5/7/2/5/7/57257-one-battle-after-another-0-600-0-900-crop.jpg?v=7d1" alt="Poster de la película">
+  </div>
+  <div class="details">
+    <h2>Sinopsis</h2>
+    <p>
+      Durante el periodo de guerra civil, dos bandos luchan encarnizadamente en un conflicto sin tregua.
+      El destino de los combatientes queda marcado por batallas que se suceden una tras otra,
+      dejando tras de sí honor, sacrificio y memoria.
+    </p>
+    <h2>Detalles</h2>
+    <p><strong>Duración:</strong> 95 min</p>
+    <p><strong>Género:</strong> Bélico, Drama</p>
+    <div class="tags">
+      <span>#guerra</span>
+      <span>#clásico</span>
+      <span>#acción</span>
+    </div>
+  </div>
+</section>
+<footer th:insert="~{fragments/footer::footer}"></footer>
+
+</body>
+
+</html>

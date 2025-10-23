@@ -1,0 +1,35 @@
+header{
+    background-color: #191919;
+    color: #ffffff;
+}
+header .logo img{
+
+    height: 100px;
+}
+header a{
+    color: #da0000;
+    text-decoration:none;
+    margin:  0 20px;
+}
+header a:hover {
+    color: #cfa1a1;
+}
+
+.username-link {
+    text-decoration: none;
+    color: white;
+}
+
+.username-link:hover {
+    text-decoration: underline;
+}
+
+header nav a.nav-item{
+    color: white;
+}
+
+header nav a.nav-item:hover{
+    color: #da0000;
+}
+
+

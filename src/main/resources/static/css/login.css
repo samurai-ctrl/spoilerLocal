@@ -1,0 +1,118 @@
+body{
+    background-color: #191919;
+    font-family: "Segoe UI";
+}
+
+h1{
+    font-family: Verdana;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+h3{
+    font-family: Verdana;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+
+}
+
+.container {
+    max-width: 500px;
+
+    justify-content: center;
+    align-items: center;
+}
+.login-container{
+    background-color: #212529;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    color: white;
+    margin-top: 200px;
+
+
+}
+.form-label{
+    font-size:1rem;
+    color: #faf9f9;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(204, 204, 204, 0.78);
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+}
+
+input[type="checkbox"]
+{
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(204, 204, 204, 0.78);
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+
+}
+
+input[type="checkbox"]{
+    width:auto;
+    margin-right: 5px;
+    margin-left: 0;
+
+}
+
+
+/* Casillas de verificación */
+.form-check {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.form-check-label {
+    font-size: 1rem;
+    color: #fbf9f9;
+    display:block;
+}
+
+.form-check-input {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.form-check +.form-check{
+    margin-top: 10px;
+}
+
+span{
+    color: red;
+}
+header{
+    background-color: #191919;
+    color: #ffffff;
+}
+header .logo img{
+
+    height: 70px;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    margin:  0 70px;
+    font-weight: bold;
+
+}
+header a:hover{
+    color: #da0000;
+    text-decoration: none;
+
+}
